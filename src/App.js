@@ -1,4 +1,3 @@
-import logo from './Images/mobile-dark.svg';
 import './App.css';
 
 function App() {
