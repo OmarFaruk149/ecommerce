@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './Components/Navbar';
+import Post from './Components/Post';
 
 function App() {
   return (
-    <div className="App bg-gray-900 rounded-lg">
-      <p>Hello tailwind</p>
+    <div className="flex-row">
+      <Navbar />
+      <Post />
     </div>
   );
 }
